@@ -1,11 +1,11 @@
 ---
-name: supabase-auth
+name: supabase-auth-mobile
 description: Supabase Auth implementation for Expo/React Native UIs. Wire the complete account layer into whatever app is being built — sign-up with email confirmation, sign-in with email+password, MFA authenticator (TOTP) with one-time recovery codes, password reset, session gating, account settings and account deletion (Edge Function) — including supabase-js client setup, deep-link configuration and error handling. Use whenever a UI build (alone or together with a UI/UX skill) involves Supabase or user accounts — sign in, sign up, 2FA/MFA, recovery codes, email confirmation, password reset, delete account — so the auth screens and logic are generated without extra prompting.
 version: 1.0.0
 license: MIT
 ---
 
-# Supabase Auth for App Builds
+# Supabase Auth for Mobile Builds
 
 The account layer for Expo/React Native apps backed by Supabase Auth. When this skill is active (usually together with a UI/UX skill), implement the auth features below **without asking whether to include them** — the user invoked this skill precisely to get them wired into the screens. Only ask for what is genuinely missing: the Supabase **Project URL** and the **publishable key** (`sb_publishable_*` or legacy anon key).
 

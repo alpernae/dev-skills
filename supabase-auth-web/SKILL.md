@@ -14,7 +14,7 @@ Two supported stacks, detected from the project:
 1. **Next.js (App Router)** — cookie-based sessions via `@supabase/ssr`, `proxy.ts`/`middleware.ts` session refresh, `/auth/confirm` route handler for email links. The auth APIs below get called from Client Components browsing (`'use client'`), pages protected in the proxy.
 2. **Client-only React (Vite, CRA, SPA)** — plain `@supabase/supabase-js` with browser storage; email links are handled automatically on page load (`detectSessionInUrl`); routing/redirect decisions client-side.
 
-Auth APIs (`signUp`, `signInWithPassword`, `mfa.*`) are identical in both — stack differences are confined to `setup.md` and the link-handling notes. The same APIs on mobile with Expo live in the sibling skill `supabase-auth`.
+Auth APIs (`signUp`, `signInWithPassword`, `mfa.*`) are identical in both — stack differences are confined to `setup.md` and the link-handling notes. The same APIs on mobile with Expo live in the sibling skill `supabase-auth-mobile`.
 
 ## References
 
